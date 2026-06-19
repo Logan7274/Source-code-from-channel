@@ -1,0 +1,14 @@
+# 1. 先排除所有檔案與資料夾
+/*
+
+# 2. 排除所有隱藏檔案 (除了 .gitignore)
+.*
+!.gitignore
+
+# 3. 指定「不排除」的檔案 (你要保留的)
+!amime1.py
+!anime2.py
+!anime3.py
+!anime4.py
+!anime5.py
+!anime6.py
